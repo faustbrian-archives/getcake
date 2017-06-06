@@ -1,7 +1,7 @@
 {
     "name": "faustbrian/getcake-php-client",
     "description": "A GetCake Client for PHP",
-    "keywords": ["api", "faustbrian", "faustbrian-getcake", "GetCake", "Brian Faust", "faustbrian"],
+    "keywords": ["api", "getcake", "Brian Faust", "faustbrian"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
