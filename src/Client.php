@@ -39,8 +39,8 @@ class Client
      */
     public function __construct(string $domain, string $apiKey, string $affiliateId)
     {
-        $this->domain      = $domain;
-        $this->apiKey      = $apiKey;
+        $this->domain = $domain;
+        $this->apiKey = $apiKey;
         $this->affiliateId = $affiliateId;
     }
 
