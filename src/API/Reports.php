@@ -5,22 +5,22 @@ declare(strict_types=1);
 /*
  * This file is part of GetCake PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\GetCake\API;
+namespace Plients\GetCake\API;
 
-use BrianFaust\Http\HttpResponse;
+use Plients\Http\HttpResponse;
 
 class Reports extends AbstractAPI
 {
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function bills(array $parameters): HttpResponse
     {
@@ -30,7 +30,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function campaignSummary(array $parameters): HttpResponse
     {
@@ -40,7 +40,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function clicks(array $parameters): HttpResponse
     {
@@ -50,7 +50,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function conversions(array $parameters): HttpResponse
     {
@@ -60,7 +60,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function dailySummary(array $parameters): HttpResponse
     {
@@ -70,7 +70,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function hourlySummary(array $parameters): HttpResponse
     {
@@ -80,7 +80,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function networkNews(array $parameters): HttpResponse
     {
@@ -90,7 +90,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function offerCompliance(array $parameters): HttpResponse
     {
@@ -100,7 +100,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function orderDetails(array $parameters): HttpResponse
     {
@@ -110,7 +110,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function orderDetailChanges(array $parameters): HttpResponse
     {
@@ -120,7 +120,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function performanceSummary(array $parameters): HttpResponse
     {
@@ -130,7 +130,7 @@ class Reports extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function topOfferSummary(array $parameters): HttpResponse
     {

@@ -5,22 +5,22 @@ declare(strict_types=1);
 /*
  * This file is part of GetCake PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\GetCake\API;
+namespace Plients\GetCake\API;
 
-use BrianFaust\Http\HttpResponse;
+use Plients\Http\HttpResponse;
 
 class Account extends AbstractAPI
 {
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function changeAccountInfo(array $parameters): HttpResponse
     {
@@ -30,7 +30,7 @@ class Account extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function changeLanguage(array $parameters): HttpResponse
     {
@@ -40,7 +40,7 @@ class Account extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function changeMediaTypes(array $parameters): HttpResponse
     {
@@ -50,7 +50,7 @@ class Account extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function changePriceFormats(array $parameters): HttpResponse
     {
@@ -60,7 +60,7 @@ class Account extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function changeVerticalCategories(array $parameters): HttpResponse
     {
@@ -70,7 +70,7 @@ class Account extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getAccountInfo(array $parameters): HttpResponse
     {
@@ -78,7 +78,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getAccountManager(): HttpResponse
     {
@@ -86,7 +86,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getContactTypes(): HttpResponse
     {
@@ -94,7 +94,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getCountries(): HttpResponse
     {
@@ -102,7 +102,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getLanguages(): HttpResponse
     {
@@ -110,7 +110,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getMediaTypes(): HttpResponse
     {
@@ -118,7 +118,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getPaymentToTypes(): HttpResponse
     {
@@ -126,7 +126,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getPriceFormats(): HttpResponse
     {
@@ -134,7 +134,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getTaxClasses(): HttpResponse
     {
@@ -142,7 +142,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getUsStates(): HttpResponse
     {
@@ -150,7 +150,7 @@ class Account extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getVerticalCategories(): HttpResponse
     {
@@ -160,7 +160,7 @@ class Account extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function resetPassword(array $parameters): HttpResponse
     {

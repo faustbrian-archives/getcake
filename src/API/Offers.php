@@ -5,22 +5,22 @@ declare(strict_types=1);
 /*
  * This file is part of GetCake PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\GetCake\API;
+namespace Plients\GetCake\API;
 
-use BrianFaust\Http\HttpResponse;
+use Plients\Http\HttpResponse;
 
 class Offers extends AbstractAPI
 {
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function addLinkCreative(array $parameters): HttpResponse
     {
@@ -30,7 +30,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function applyForOffer(array $parameters): HttpResponse
     {
@@ -40,7 +40,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function creativeFeed(array $parameters): HttpResponse
     {
@@ -50,7 +50,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getCampaign(array $parameters): HttpResponse
     {
@@ -60,7 +60,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getCreativeCode(array $parameters): HttpResponse
     {
@@ -68,7 +68,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getCreativeFeeds(): HttpResponse
     {
@@ -76,7 +76,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getCreativeTypes(): HttpResponse
     {
@@ -84,7 +84,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getFeaturedOffer(): HttpResponse
     {
@@ -92,7 +92,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getMediaTypeCategories(): HttpResponse
     {
@@ -100,7 +100,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getOfferStatuses(): HttpResponse
     {
@@ -108,7 +108,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getPixelTokens(): HttpResponse
     {
@@ -116,7 +116,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getSuppressionList(): HttpResponse
     {
@@ -124,7 +124,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getTags(): HttpResponse
     {
@@ -132,7 +132,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getVerticalCategories(): HttpResponse
     {
@@ -140,7 +140,7 @@ class Offers extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getVerticals(): HttpResponse
     {
@@ -150,7 +150,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getSubAffiliates(array $parameters): HttpResponse
     {
@@ -160,7 +160,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function offerFeed(array $parameters): HttpResponse
     {
@@ -170,7 +170,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function sendCreativePack(array $parameters): HttpResponse
     {
@@ -180,7 +180,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function setPixel(array $parameters): HttpResponse
     {
@@ -190,7 +190,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function setPostbackUrl(array $parameters): HttpResponse
     {
@@ -200,7 +200,7 @@ class Offers extends AbstractAPI
     /**
      * @param array $parameters
      *
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function setTestLink(array $parameters): HttpResponse
     {

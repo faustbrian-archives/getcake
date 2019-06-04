@@ -5,20 +5,20 @@ declare(strict_types=1);
 /*
  * This file is part of GetCake PHP Client.
  *
- * (c) Brian Faust <hello@brianfaust.me>
+ * (c) Brian Faust <hello@basecode.sh>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\GetCake\API;
+namespace Plients\GetCake\API;
 
-use BrianFaust\Http\HttpResponse;
+use Plients\Http\HttpResponse;
 
 class Get extends AbstractAPI
 {
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getCurrencies(): HttpResponse
     {
@@ -26,7 +26,7 @@ class Get extends AbstractAPI
     }
 
     /**
-     * @return \BrianFaust\Http\HttpResponse
+     * @return \Plients\Http\HttpResponse
      */
     public function getDispositionTypes(): HttpResponse
     {
